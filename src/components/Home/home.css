@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.button {
+  color: aliceblue;
+  background-color: brown;
+  padding: 30px 50px;
+  text-transform: uppercase;
+}
+.button > a {
+  color: aliceblue;
+  text-decoration: none;
+}

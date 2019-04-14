@@ -4,7 +4,6 @@ import {
 
 const INITIAL_STATE = {
   products: [],
-  loading: true,
 };
 
 const getProductsReducer = (state = INITIAL_STATE, { type, payload }) => {
@@ -13,7 +12,6 @@ const getProductsReducer = (state = INITIAL_STATE, { type, payload }) => {
       return {
         ...state,
         products: [...payload],
-        loading: false,
       };
     default:
       return state;
